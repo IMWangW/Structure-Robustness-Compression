@@ -1,0 +1,4 @@
+If you need to generate a poisoned model, run: training_main.py
+If you need to test the poisoned model, run: testing_main.py
+The generation of poisoning data depends on trattacker.py
+The running results will be saved in directory "models".
