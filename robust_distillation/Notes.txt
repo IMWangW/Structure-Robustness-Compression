@@ -1,0 +1,6 @@
+If you need to run the program, the poisoned model needs to be stored in the directory "T_model" as the teacher model
+If you need to generate a robust student model based on abnormal data, run: kd_training_main_attack.py
+If you need to test the robust student model using clean data, run: testing_main.py
+If you need to test a robust student model with abnormal data, run: attack_testing_main.py
+The generation of poisoning data depends on trattacker.py 
+The running results will be saved in directory "S_model"

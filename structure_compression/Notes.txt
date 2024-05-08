@@ -1,0 +1,5 @@
+If you need to run the program, first move the robust student model of the completed distillation to directory "Stu_model"
+If you need to complete the structure compression, run: pruning_main_attack.py
+The results of the run and the model are saved in directory "prune_model"
+If you need to test the generated model using clean data, run: testing_main.py
+If the generated model needs to be tested with abnormal data, run: attack_testing_main.py
